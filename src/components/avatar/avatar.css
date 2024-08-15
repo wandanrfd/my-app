@@ -1,0 +1,116 @@
+
+.avatar-group-small .avatar img {
+  width: 24px;
+  height: 24px;
+}
+
+.avatar-group-medium .avatar img {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-group-large .avatar img {
+  width: 56px;
+  height: 56px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.dropdown-item img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.avatar-group {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-group-small .avatar-initial {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.avatar-group-medium .avatar-initial {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.avatar-group-large .avatar-initial {
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -8px; /* Mengurangi jarak antar avatar */
+  border-radius: 50%;
+  background-color: #e0e0e0; /* Warna latar belakang */
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-initial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: #0343d9; /* Warna teks */
+  background-color: #d0e4f9; /* Warna latar belakang */
+  font-weight: bold;
+}
+
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-top: 8px;
+  z-index: 1000;
+  max-height: 200px; 
+  overflow-y: auto; 
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd; 
+}
+
+.dropdown-item .avatar-image {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.dropdown-item .avatar-initial {
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  margin-right: 8px;
+}
+

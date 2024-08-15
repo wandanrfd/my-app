@@ -1,0 +1,74 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+}
+
+.small  {
+    font-size: 12px;
+}
+
+.medium  {
+    font-size: 14px;
+}
+
+.large  {
+    font-size: px;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-separator {
+    margin: 0 8px;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb.small .breadcrumb-link {
+    font-size: 12px !important;
+}
+
+.breadcrumb.medium .breadcrumb-link {
+    font-size: 16px !important;
+}
+
+.breadcrumb.large .breadcrumb-link {
+    font-size: 20px !important;
+}
+
+.breadcrumbItem {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    margin-left: 4px; /* Space between icon and text */
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-separator {
+    margin: 0 8px;
+}
+
+.icon {
+    font-size: inherit; /* Match the icon size to the text size */
+    margin-right: 4px; /* Space between icon and text */
+    color:blue
+}
+
