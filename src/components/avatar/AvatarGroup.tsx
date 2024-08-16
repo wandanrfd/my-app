@@ -69,7 +69,7 @@ const AvatarGroup: React.FC<AvatarGroupProps> = ({ users, size }) => {
                   )}
                   <span>{user.name}</span>
 
-                  
+
                 </div>
               ))}
             </div>
