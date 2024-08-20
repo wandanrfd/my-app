@@ -11,9 +11,9 @@ export interface TextFieldProps {
 
 const TextField: React.FC<TextFieldProps> = ({ variant, settings, label, children }) => {
     const variantClasses = {
-        small: 'text-sm p-15',
-        medium: 'text-base p-15',
-        large: 'text-lg p-15',
+        small: 'text-sm',
+        medium: 'text-base ',
+        large: 'text-lg ',
     };
 
     return (
